@@ -1,5 +1,8 @@
 @import "../../styling/variables";
 
 .App{
-  background: $Shade1
+  height: 100vh;
+  width: 100vw;
+  background: $Shade1;
+  font-family: $mono;
 }
