@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../headshot.png'
 import './App.scss';
 import {
   BrowserRouter,
@@ -7,6 +8,7 @@ import {
 } from "react-router-dom";
 import NavBar from '../NavBar/NavBar.js'
 import Blurb from '../Blurb/Blurb.js'
+import Resume from '../Resume/Resume.js'
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +16,7 @@ function App() {
         <NavBar/>
         <Switch>
           <Route path='/resume'>
+            <Resume />
           </Route>
           <Route path='/work'>
           </Route>
@@ -25,6 +28,7 @@ function App() {
             <Blurb />
           </Route>
         </Switch>
+        <img src={headshot}/>
       </main>
     </BrowserRouter>
   );
