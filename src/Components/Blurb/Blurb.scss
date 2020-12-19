@@ -1,3 +1,17 @@
-p {
-  color: white
+.Blurb {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  padding-left: 10vw;
+  p {
+  color: white;
+  font-size: 3rem;
+  margin: 1vw;
+  }
+  .about {
+    text-align: right;
+  }
+  .mission {
+    text-align: left;
+  }
 }
