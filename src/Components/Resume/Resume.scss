@@ -1,0 +1,68 @@
+@import "../../styling/variables";
+
+.Resume {
+  color: $Shade10;
+  font-family: $mono;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  a {
+    color: $Shade10;
+  }
+  h1 {
+    padding: .5rem;
+  }
+  h2 {
+    padding: .5rem;
+  }
+  h3 {
+    padding: .5rem;
+  }
+  h4 {
+    padding: .5rem;
+  }
+  h5 {
+    padding: .5rem;
+  }
+  h6 {
+    padding: .5rem;
+  }
+  li {
+    padding: 0rem .5rem .2rem .5rem;
+  }
+  a {
+    display: block;
+    margin: 0rem .5rem .2rem .5rem;
+  }
+  p {
+    padding: 0.4rem .5rem 0rem .5rem;
+  }
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    text-align: right;
+    margin: 1vw .5vw 1vw 5vw;
+    .item {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+  .col2 {
+    font-size-adjust: .25;
+    background-color: $Shade10;
+    color: $Shade1;
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    text-align: left;
+    margin: 1vw 5vw 1vw .5vw;
+    padding-top: 7vh;
+    padding-bottom: 2vh;
+    opacity: .7;
+    z-index: 10;
+    a {
+      color: $Shade1;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../styling/variables";
+
+.NavBar {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh;
+  a, .home {
+    text-decoration: none;
+    color: $Shade10;
+    margin: 1vh;
+    font-size: 2vh;
+  }
+  a:hover{
+    text-transform: capitalize;
+    color: $Shade8;
+  }
+  .home:hover{
+    text-transform: lowercase;
+    color: $Shade8;
+  }
+}
