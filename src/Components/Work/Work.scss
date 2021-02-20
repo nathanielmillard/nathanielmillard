@@ -1,4 +1,7 @@
+@import '../../styling/variables.scss';
+
 .Work {
+  z-index: 0;
   width: 90vh;
   height: 90vh;
   background-color: white;
@@ -6,43 +9,117 @@
   grid-template-columns: repeat(20, 1fr [col-start]);
   grid-template-rows: repeat(20, 1fr [row-start]);
 }
+#box:hover {
+  background-color: $Shade10;
+  opacity: .5;
+  border: 3px solid $Shade8;
+}
 
-#work1 {
+.work1 {
+  z-index: 1;
+  border: 3px solid $Shade1;
   background-color: hsla(1, 1, 1, .2);
   grid-column-start: 2;
-  grid-column-end: 7;
-  grid-row-start: 5;
-  grid-row-end: 9;
-}
-
-#work2 {
-  background-color: hsla(1, 1, 1, .2);
-  grid-column-start: 4;
-  grid-column-end: 15;
+  grid-column-end: 12;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 12;
 }
-
-#work3 {
-  background-color: hsla(1, 1, 1, .2);
-  grid-column-start: 8;
-  grid-column-end: 17;
-  grid-row-start: 15;
-  grid-row-end: 18;
-}
-
-#work4 {
+.work2 {
+  z-index: 2;
+  border: 3px solid $Shade1;
   background-color: hsla(1, 1, 1, .2);
   grid-column-start: 9;
-  grid-column-end: 11;
-  grid-row-start: 4;
-  grid-row-end: 20;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 11;
 }
-
-#work5 {
+.work3 {
+  z-index: 3;
+  border: 3px solid $Shade1;
   background-color: hsla(1, 1, 1, .2);
-  grid-column-start: 17;
+  grid-column-start: 13;
+  grid-column-end: 21;
+  grid-row-start: 13;
+  grid-row-end: 21;
+}
+.work4 {
+  z-index: 4;
+  border: 3px solid $Shade1;
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 13;
+  grid-row-end: 21;
+}
+.work5 {
+  z-index: 5;
+  border: 3px solid $Shade1;
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 17;
+}
+.work6 {
+  z-index: 6;
+  border: 3px solid $Shade1;
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 6;
+  grid-column-end: 16;
+  grid-row-start: 6;
+  grid-row-end: 16;
+}
+.work7 {
+  z-index: 7;
+  border: 3px solid $Shade1;
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 10;
   grid-column-end: 20;
-  grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-start: 9;
+  grid-row-end: 19;
+}
+.work8 {
+  z-index: 8;
+  border: none;
+  background-color: none;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 13;
+  grid-row-end: 16;
+}
+.work9 {
+  z-index: 9;
+  border: none;
+  background-color: none;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+.work10 {
+  z-index: 10;
+  border: none;
+  background-color: none;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+.work11 {
+  z-index: 11;
+  border: none;
+  background-color: none;
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-row-start: 9;
+  grid-row-end: 11;
+}
+.work12 {
+  z-index: 12;
+  border: none;
+  background-color: none;
+  grid-column-start: 13;
+  grid-column-end: 16;
+  grid-row-start: 13;
+  grid-row-end: 16;
 }
