@@ -12,26 +12,29 @@ let Resume = () => {
             <div className='item'>
               <h4>Rume (group) ~2 weeks</h4>
               <a href=''>Github Repo</a>
-              <p>Built for an already wellness conscious user, Rume is a design
-              and animation heavy application build with a simple backend to
-              illustrate a scalable user experience.</p>
-              <p>React | React Router | React Testing Library/Jest | Styled Compo- nents | GSAP | Node.js/Express</p>
+              <p>Designed for an already wellness conscious user, Rume is an
+              animation  and style heavy application build with a simple backend
+               to illustrate what could be a scalable user experience.
+              </p>
+              <p>React | React Router | React Testing Library/Jest | Styled
+              Components | GSAP | Node.js/Express</p>
             </div>
             <div className='item'>
               <h4>Rancid Tomatillos (group) ~3 weeks</h4>
               <a href=''>Github Repo</a>
-              <p>Built for your “everyday” movie consumer, Rancid Tomatillos was
-               the first time delving into using React, dynamic sad path UX, and
-                implementation of a micro service for this app and class API.</p>
+              <p>Created for your “everyday” movie consumer, Rancid Tomatillos
+              was the first time delving into using React, dynamic sad path UX,
+              and implementation of a micro service for this app and class API.
+              </p>
               <p>React | React Router | React Testing Library/Jest | Node.js/Express</p>
             </div>
             <div className='item'>
               <h4>Whats Cooking (group) ~3 weeks</h4>
               <a href=''>Github Repo</a>
               <p>Built for a simple user looking for more inspiration in the
-              kitchen, What’s Cooking is a vanilla javascript item creating
-              dynamic displays for a user, refactoring the styling using Sass,
-              working with Webpack, and maintaining Lighthouse accessibility.</p>
+              kitchen, What’s Cooking was an vanilla javascript project focusing
+              on building and refactoring dynamic displays for a user.
+              </p>
               <p>WebPack | Lighthouse | Fetch Api | Mocha/Chai | Sass</p>
             </div>
         </section>
@@ -41,18 +44,18 @@ let Resume = () => {
               <h4>Babooshka Hair Co</h4>
               <h5>Hair Stylist</h5>
               <h6>January 2018 - June 2020</h6>
-              <p>As a constant in a small locally owned salon, I was able to
-              hone skills with collaborating and working independently with a
-              small team, being a consistent and reliable resource for guests
-              and coworkers, cultivating a welcoming and receptive environment,
-              and giving and receiving constant feedback.</p>
+              <p>As an integral member of small locally owned salon team, there
+              were many hats to wear, and room to exercise organizationa skills,
+               cultivating a welcoming and receptive environment, and giving and
+                receiving constant feedback.
+              </p>
             </div>
             <div>
               <h4>MAC Cosmetics</h4>
               <h5>Freelance MakeUp Artist</h5>
               <h6>February 2018 - May 2020</h6>
               <p>As someone called in to help on busy days or in short staffed
-              situations, this role has allowed me to learn to quickly integrate
+              situations, this role required the ability to quickly integrate
                to new teams, be able to readily and easily assess and fulfill
                needs in a work environment, and to be a dynamic flexible worker
                with a variety of responsibilities.</p>
@@ -62,10 +65,33 @@ let Resume = () => {
               <h5>Education Mentor / Experience Center Coordinator</h5>
               <h6>January 2017 - December 2017</h6>
               <p>As a liaison between guest experience and education, this role
-              gave me public speaking skills, principles of education and
+              required public speaking skills, principles of education and
               teaching, and the ability to communicate empathy between guests
-              and students in a large complicated environment.</p>
+              and students in a large complicated environment.
+              </p>
             </div>
+        </section>
+        <section className='volunteer-experience'>
+        <h3>Volunteer Experience</h3>
+          <div>
+            <h4>Turing School of Software and Design</h4>
+            <h5>Queer Quoders Student Outreach Coordinator</h5>
+            <h6>July 2020 - Present</h6>
+            <p>Organizing community events and moderating a student/alumni
+            channel.</p>
+            <h5>Cohort Student Leadership Committee</h5>
+            <h6>Aug 2020 - Nov 2020</h6>
+            <p>Leading group retrospectives, giving socially oriented
+            lighting talks, and facilitation feedback between students and
+            educators.</p>
+          </div>
+          <div>
+            <h4>Queer Undefined</h4>
+            <h5>Open Source Contributor</h5>
+            <h6>December 2020 - Present</h6>
+            <p>Remote working, agile project management, CI code
+            contribution.</p>
+          </div>
         </section>
       </div>
       <div className='col2'>
@@ -78,9 +104,9 @@ let Resume = () => {
       </section>
       <section className='about'>
         <h3>About</h3>
-        <p>Artist and creative turned front end engineer, I am pas- sionate
-        about flexible inven- tive code that is empathetic to a wide user basis,
-         build by a diverse team.</p>
+        <p>Creative software engineer, passionate about flexible and inventive
+        code, built for a wide user basis, and by a collaborative, engaged,  and
+         diverse team.</p>
       </section>
       <section>
         <h3>Fluent In:</h3>
