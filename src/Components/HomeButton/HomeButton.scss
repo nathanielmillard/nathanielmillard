@@ -1,0 +1,12 @@
+@import "../../styling/variables";
+
+.home {
+  text-decoration: none;
+  color: $Shade8;
+  margin: 1vh;
+  font-size: 2vh;
+}
+.home:hover{
+  text-transform: lowercase;
+  color: $Shade10;
+}
