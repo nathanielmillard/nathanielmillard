@@ -1,10 +1,16 @@
 @import '../../styling/variables.scss';
-
 .Work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+.WorkSection {
   z-index: 0;
   width: 90vh;
   height: 90vh;
-  background-color: white;
   display: grid;
   grid-template-columns: repeat(20, 1fr [col-start]);
   grid-template-rows: repeat(20, 1fr [row-start]);
@@ -18,7 +24,7 @@
 .work1 {
   z-index: 1;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 2;
   grid-column-end: 12;
   grid-row-start: 2;
@@ -27,7 +33,7 @@
 .work2 {
   z-index: 2;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 9;
   grid-column-end: 21;
   grid-row-start: 1;
@@ -36,7 +42,7 @@
 .work3 {
   z-index: 3;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 13;
   grid-column-end: 21;
   grid-row-start: 13;
@@ -45,7 +51,7 @@
 .work4 {
   z-index: 4;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 13;
@@ -54,7 +60,7 @@
 .work5 {
   z-index: 5;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 3;
   grid-column-end: 9;
   grid-row-start: 11;
@@ -63,7 +69,7 @@
 .work6 {
   z-index: 6;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
   grid-column-start: 6;
   grid-column-end: 16;
   grid-row-start: 6;
@@ -72,7 +78,63 @@
 .work7 {
   z-index: 7;
   border: 3px solid $Shade1;
-  background-color: hsla(1, 1, 1, .2);
+  background-color: hsl(205, 49, 83, .1);
+  grid-column-start: 10;
+  grid-column-end: 20;
+  grid-row-start: 9;
+  grid-row-end: 19;
+}
+.box1 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 2;
+  grid-row-end: 12;
+}
+.box2 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 9;
+  grid-column-end: 21;
+  grid-row-start: 1;
+  grid-row-end: 11;
+}
+.box3 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 13;
+  grid-column-end: 21;
+  grid-row-start: 13;
+  grid-row-end: 21;
+}
+.box4 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 13;
+  grid-row-end: 21;
+}
+.box5 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 17;
+}
+.box6 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
+  grid-column-start: 6;
+  grid-column-end: 16;
+  grid-row-start: 6;
+  grid-row-end: 16;
+}
+.box7 {
+  z-index: 0;
+  background-color: hsl(205, 49, 83, .2);
   grid-column-start: 10;
   grid-column-end: 20;
   grid-row-start: 9;
