@@ -9,7 +9,14 @@ import {
 import NavBar from '../NavBar/NavBar.js'
 import Blurb from '../Blurb/Blurb.js'
 import Resume from '../Resume/Resume.js'
+import Work from '../Work/Work.js'
+import {gsap} from 'gsap';
 function App() {
+  gsap.to('headshot', {
+    duration: 3,
+    opacity: .01,
+    height: '20%',
+  })
   return (
     <BrowserRouter>
       <main className="App">
@@ -19,6 +26,7 @@ function App() {
             <Resume />
           </Route>
           <Route path='/work'>
+            <Work />
           </Route>
           <Route path='/background'>
           </Route>
@@ -28,7 +36,7 @@ function App() {
             <Blurb />
           </Route>
         </Switch>
-        <img src={headshot}/>
+        <img className='headshot' src={headshot}/>
       </main>
     </BrowserRouter>
   );

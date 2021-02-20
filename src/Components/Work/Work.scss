@@ -1,0 +1,48 @@
+.Work {
+  width: 90vh;
+  height: 90vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr [col-start]);
+  grid-template-rows: repeat(20, 1fr [row-start]);
+}
+
+#work1 {
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+
+#work2 {
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 4;
+  grid-column-end: 15;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+#work3 {
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 8;
+  grid-column-end: 17;
+  grid-row-start: 15;
+  grid-row-end: 18;
+}
+
+#work4 {
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 20;
+}
+
+#work5 {
+  background-color: hsla(1, 1, 1, .2);
+  grid-column-start: 17;
+  grid-column-end: 20;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
