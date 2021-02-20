@@ -15,3 +15,11 @@
     text-align: left;
   }
 }
+.headshot {
+  position: fixed;
+  align-self: flex-end;
+  margin-top: 40vh;
+  height: 60vh;
+  opacity: .3;
+  z-index: 1;
+}

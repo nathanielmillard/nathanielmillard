@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../headshot.png'
+
 import './App.scss';
 import {
   BrowserRouter,
@@ -36,7 +36,6 @@ function App() {
             <Blurb />
           </Route>
         </Switch>
-        <img className='headshot' src={headshot}/>
       </main>
     </BrowserRouter>
   );

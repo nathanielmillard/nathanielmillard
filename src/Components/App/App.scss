@@ -10,12 +10,4 @@
   width: 100vw;
   background: $Shade1;
   font-family: $mono;
-  img {
-    position: fixed;
-    align-self: flex-end;
-    margin-top: 40vh;
-    height: 60vh;
-    opacity: .3;
-    z-index: 1;
-  }
 }
