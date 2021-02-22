@@ -22,11 +22,11 @@ export const projectData = {
       },
       {
         name: 'React Testing Library',
-        url: 'https://reactjs.org/'
+        url: 'https://testing-library.com/docs/react-testing-library/intro/
       },
       {
         name: 'Jest',
-        url: 'https://reactjs.org/'
+        url: 'https://jestjs.io/'
       },
       {
         name: 'Styled Components',
@@ -42,7 +42,52 @@ export const projectData = {
       },
     ],
     videoURL: 'https://www.youtube.com/watch?v=nlUTWOdFLR8',
-    photoURLs: [''],
+    photoURLs: ['./images/Rume.png'],
+  },
+  'feedThePeople': {
+    projectTitle: 'Feed The People',
+    projectDescription: 'Feed The People was thought up during early lock down, with people turning to cooking to stay busy and wanting to give back. This app gives users the ability to upload recipes that can be accessed by other users after donating to a given none profit.',
+    repoURl: 'https://github.com/feed-the-people',
+    deployedURL: 'https://feedthepeople.herokuapp.com/',
+    contributors: [
+      {
+        name: 'Cam C',
+        url: 'https://github.com/ckccameron'
+      },
+      {
+        name: 'Corey Carter',
+        url: 'https://github.com/coreycartercodes'
+      },
+      {
+        name: 'Logan Riffel',
+        url: 'https://github.com/lkriffell'
+      },
+      {
+        name: 'Hashim G',
+        url: 'https://github.com/hashmaster3k'
+      },
+    ],
+    learningGoals: 'Feed the People was a lesson in time and team management. The successes primarily came from being able to still pull the app together with a much smaller front end team than planned.',
+    technologyUsed: [
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'React Testing Library',
+        url: 'https://testing-library.com/docs/react-testing-library/intro/'
+      },
+      {
+        name: 'Jest',
+        url: 'https://jestjs.io/'
+      },
+      {
+        name: 'Sass',
+        url: 'https://sass-lang.com/'
+      }
+    ],
+    videoURL: 'https://www.youtube.com/watch?v=-SeFwV3vYfs&feature=emb_logo',
+    photoURLs: ['./images/FeedThePeople.png'],
   },
 
 }
