@@ -89,5 +89,30 @@ export const projectData = {
     videoURL: 'https://www.youtube.com/watch?v=-SeFwV3vYfs&feature=emb_logo',
     photoURLs: ['./images/FeedThePeople.png'],
   },
+  'ideaBox': {
+    projectTitle: 'Idea Box',
+    projectDescription: 'One of the quintessential developer exercises, idea box allows a user to write and upload ideas and then interact with those saved cards.',
+    repoURl: 'https://github.com/nathanielmillard/idea-box',
+    deployedURL: null,
+    contributors: [
+    ],
+    learningGoals: 'Made to both mark growth and progress in my developer journey, this app illustrates the ability to meet a design spec in a given time and the strengths React brings to a project.',
+    technologyUsed: [
+      {
+        name: 'React',
+        url: 'https://reactjs.org/'
+      },
+      {
+        name: 'React Testing Library',
+        url: 'https://testing-library.com/docs/react-testing-library/intro/'
+      },
+      {
+        name: 'Jest',
+        url: 'https://jestjs.io/'
+      }
+    ],
+    videoURL: null,
+    photoURLs: [],
+  },
 
 }
