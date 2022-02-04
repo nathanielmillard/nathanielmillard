@@ -6,8 +6,8 @@
 
 ---
 <p align='center'>
-I'm a developer who recently graduated from
-<a href='https://turing.io/'> The Turing School of Software and Design </a> focusing on front end development graduating January 21st.
+I'm a developer who graduated from <a href='https://turing.io/'> The Turing School of Software and Design </a> working as a full stack software engineer.
+
 I can be reached pretty easily via
 <a href = 'mailto: nathanielmillard@gmail.com'> email </a> or on <a href='https://www.linkedin.com/in/nathaniel-m-94a259165/'> LinkedIn. </a>
 </p>
