@@ -6,7 +6,7 @@
 
 ---
 <p align='center'>
-I'm a developer who graduated from <a href='https://turing.io/'> The Turing School of Software and Design </a> working as a full stack software engineer.
+I'm a senior software engineer working for <a href='https://www.housecallpro.com'> HouseCall Pro </a>: a career changing creative who graduated from <a href='https://turing.io/'> The Turing School of Software and Design </a> enjoying the human moments in tech.
 
 I can be reached pretty easily via
 <a href = 'mailto: nathanielmillard@gmail.com'> email </a> or on <a href='https://www.linkedin.com/in/nathaniel-m-94a259165/'> LinkedIn. </a>
@@ -17,8 +17,4 @@ I can be reached pretty easily via
 How Many Folks Made It This Far:
 ![Visitor Count](https://profile-counter.glitch.me/{NathanielMillard}/count.svg)
 </section>
-
-<h5>
-Updates to come as I work on my own branding and flesh out my personal website...
-</h5>
 
