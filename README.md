@@ -6,7 +6,7 @@
 
 ---
 <p align='center'>
-I'm a career changing creative who graduated from <a href='https://turing.io/'> The Turing School of Software and Design </a> working as a senior software engineer for <a href='https://www.housecallpro.com'> HouseCall Pro </a>, enjoying the human moments in tech.
+I'm a Senior Software Engineer who graduated from <a href='https://turing.io/'> The Turing School of Software and Design </a> workingfor <a href='https://www.housecallpro.com'> HouseCall Pro </a>, enjoying the human moments in tech.
 
 I can be reached pretty easily via
 <a href = 'mailto: nathanielmillard@gmail.com'> email </a> or on <a href='https://www.linkedin.com/in/nathaniel-m-94a259165/'> LinkedIn. </a>
